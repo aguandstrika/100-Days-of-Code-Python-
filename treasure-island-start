@@ -1,0 +1,22 @@
+print("Welcome to tresure island.")
+print("Your mission is to find the treasure.")
+
+doorOne=input("right  or left: ")
+doorTwo=input("up or down: ")
+doorThree=input("red door, blue door, yellow door: ")
+
+doorOne=doorOne.lower()
+doorTwo=doorTwo.lower()
+doorThree=doorThree.lower()
+
+if doorOne == "right":
+  print("wrong door try again")
+elif doorTwo == "down":
+  print("it was a trap door nooooooooooooooooo")
+elif doorThree == "yellow door":
+  print(" you made it you are the winner")
+else:
+  print("You're lost, try again")
+
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
